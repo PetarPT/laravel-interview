@@ -43,4 +43,4 @@ git apply task.patch
 ./vendor/bin/sail artisan migrate --seed
 ```
 
-Then open `TODO.md` in the project root and follow the instructions there.
+Once that's done, open `TODO.md` in the project root and simply follow it. Everything you need for the interview is there.
