@@ -33,3 +33,14 @@ docker run --rm \
 ```
 
 The first `sail up` builds the Docker image, which takes a few minutes. If `migrate` fails with a database connection error, MySQL is still starting. Wait a few seconds and try again.
+
+## At the start of the interview
+
+You'll receive a `task.patch` file. Put it in the project root and run:
+
+```bash
+git apply task.patch
+./vendor/bin/sail artisan migrate --seed
+```
+
+Then open `TODO.md`. It contains the task and everything else you need.
