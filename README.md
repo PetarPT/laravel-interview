@@ -43,4 +43,4 @@ git apply task.patch
 ./vendor/bin/sail artisan migrate --seed
 ```
 
-Then open `TODO.md`. It contains the task and everything else you need.
+Then open `TODO.md` in the project root and follow the instructions there.
